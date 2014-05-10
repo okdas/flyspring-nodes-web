@@ -1,0 +1,244 @@
+@import url(http://fonts.googleapis.com/css?family=Cuprum&subset=latin,cyrillic);
+
+
+
+body {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #7c7c7c;
+}
+a {
+  color: #323232;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+a:hover,
+a:focus {
+  color: #db522f;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cuprum', sans-serif;
+}
+/* Header
+/ -------------------------------------------------- */
+.site-header {
+  background-image: url('../img/bg.png');
+  background-repeat: no-repeat, repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  text-shadow: 0 0px 12px rgba(36, 36, 36, 0.55);
+}
+/* logo - icon is from fontawesome font */
+.site-title {
+  color: #333;
+  font-weight: 300;
+  font-size: 30px;
+  display: inline-block;
+  margin-top: 29px;
+}
+/* header-description */
+.header-description {
+  margin: 130px 0 0;
+}
+.header-description h2 {
+  font-weight: 400;
+  font-size: 70px;
+  color: #333;
+  text-shadow: 0 0px 12px rgba(36, 36, 36, 0.55);
+  padding: 0px 0 40px 0;
+}
+/* header button - call to action button */
+.header-btn {
+  color: #fff;
+  border-radius: 9px;
+  margin-top: 130px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 24px;
+  padding: 20px 35px;
+  border: 2px solid #db522f;
+  background: #db522f;
+  display: inline-block;
+}
+.header-btn:hover,
+.header-btn:focus {
+  color: #fff;
+  background: transparent;
+}
+/* header features */
+.header-features {
+  color: #fff;
+  display: block;
+}
+.header-features .header-feature {
+  padding-bottom: 70px;
+  text-shadow: 0 0px 12px rgba(36, 36, 36, 0.55);
+  color: #333;
+  font-weight: bold;
+}
+/* Slider
+/ -------------------------------------------------- */
+.iphone {
+  background-image: url(../img/iphone.png);
+  width: 254px;
+  height: 508px;
+  margin: -200px 240px 70px;
+  position: relative;
+}
+.slider {
+  width: 215px;
+  margin: 64px 21px 0;
+  height: 380px;
+  position: absolute;
+  background: #0f0f0f;
+}
+.carousel-indicators {
+  top: auto;
+  right: 104px;
+  bottom: -97px;
+}
+.purchase-button {
+  margin: 50px 0;
+  text-align: center;
+}
+.purchase-button a {
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 50px;
+  font-weight: 300;
+  background: #363636;
+  border: 1px solid #363636;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.19);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.19);
+}
+.purchase-button a:active {
+  color: #e6e6e6;
+  border: 1px solid #363636;
+  -webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.19);
+}
+.purchase-button a:hover,
+.purchase-button a:focus {
+  text-decoration: none;
+  color: #e6e6e6;
+}
+.purchase-button a i {
+  margin-right: 10px;
+}
+/* Footer
+/ -------------------------------------------------- */
+.footer {
+  position: relative;
+}
+.notify-wrapper {
+  position: absolute;
+  left: 50%;
+  top: -40px;
+}
+.notify-inner {
+  position: relative;
+  right: 50%;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 40px;
+  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.13);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.13);
+}
+.notify {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 300;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 17px 50px;
+  background: #333;
+  border-radius: 40px;
+  -webkit-box-shadow: 0 0 2px rgba(255, 255, 255, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+.notify:active,
+.notify:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.notify:active {
+  border: 1px solid rgba(0, 0, 0, 0.29);
+  background: #333;
+  -webkit-box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.35);
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.35);
+}
+.footer-notes {
+  padding: 150px 30% 100px;
+  position: inline-block;
+}
+.footer-notes p {
+  padding-bottom: 20px;
+}
+.footer-notes p + p {
+  border-top: 1px dashed #dcdcdc;
+  padding: 25px ;
+}
+.social-links {
+  text-align: center;
+  font-size: 30px;
+}
+/* Responsive
+/ -------------------------------------------------- */
+/* Large desktop */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .iphone {
+    margin: -200px 214px 70px;
+  }
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .iphone {
+    margin: 0px 92px 70px;
+  }
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .header-description {
+    margin: 66px 0 0;
+  }
+  .header-description h2 {
+    font-size: 59px;
+    line-height: 62px;
+  }
+  .purchase-button a {
+    font-size: 16px;
+    padding: 16px 24px;
+  }
+  .iphone {
+    margin: -64px auto 117px;
+  }
+  .notify {
+    font-size: 16px;
+    display: inline-block;
+    padding: 17px 25px;
+  }
+  .notify-inner {
+    padding: 7px 8px 8px;
+  }
+  .footer-notes {
+    padding: 150px 0 100px;
+  }
+}
+/* Landscape phones and down */
